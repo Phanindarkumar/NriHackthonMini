@@ -247,6 +247,15 @@ const Auth: React.FC = () => {
                 : 'Already have an account? Sign in'}
             </button>
           </div>
+          {isLogin && (
+            <div className="mt-4 p-3 bg-blue-50 rounded-md">
+              <p className="text-sm text-blue-700">
+                Demo credentials: <br />
+                Email: john@example.com <br />
+                Password: password123
+              </p>
+            </div>
+          )}
 
           
         </motion.div>
